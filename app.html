@@ -19,8 +19,8 @@
             </div>
         </header>
         <main>
-            <div class="contentBox">
-                <pre><code class="language-javascript">
+            <div class="codeBox">
+                <pre><code class="language-javascript" id="code">
 Date.prototype.Format = function (fmt) {
     var o = {
         "y+": this.getFullYear(),
@@ -53,7 +53,16 @@ const date = new Date()
 console.log(date.Format("yyyy-MM-dd"));
                 </code></pre>
             </div>
+            <div class="introBox">
+                <div class="intro" id="intro">
+                    JavaScript, often abbreviated as JS, is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted programming language.
+                </div>
+                <div class="qrCode" id="qrCode"></div>
+            </div>
         </main>
+        <footer>
+            <div></div>
+        </footer>
         <footer></footer>
         <script src="highlight.js"></script>
     </body>
